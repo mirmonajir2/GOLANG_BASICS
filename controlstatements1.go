@@ -19,5 +19,15 @@ func main() {
 	} else {
 		fmt.Println("The number is less than 10")
 	}
-
+	// switch case
+	i := 2
+	fmt.Print("Write ", i, " as ")
+	switch i {
+	case 1:
+		fmt.Println("one")
+	case 2:
+		fmt.Println("two")
+	case 3:
+		fmt.Println("three")
+	}
 }
