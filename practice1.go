@@ -10,7 +10,7 @@ import (
 func hammingDistance(a string, b string) (int, error) {
 	dis := 0
 	if len(a) != len(b) {
-		return 0, errors.New("must have same length")
+		return 0, errors.New("please input same length string")
 	}
 	for i := range a {
 		if a[i] != b[i] {
